@@ -1,0 +1,17 @@
+# Ignore heavy network captures and virtual machines
+*.pcap
+*.cap
+*.zip
+*.tar.gz
+*.iso
+*.vmx
+*.vmdk
+
+# Ignore heavy ML model weights
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# Ignore GNS3 project captures specifically
+altii/Master/Anul I/Semestrul I/CISS/GNS3 Projects/
